@@ -1,0 +1,61 @@
+@import "./../../../styles/main.css";
+
+@media (max-width: 428px) {
+    .main-page {
+        flex: 1 1 auto;
+        min-height: 100vh;
+    }
+
+    .main-page-item {
+        display: flex;
+    }
+
+    .main-page__first__block{
+        background-color: #1E1E1E;
+        max-height: 80px;
+        margin-bottom: 12px;
+    }
+
+    .main-page-image {
+        margin-right: 10px;
+    }
+
+    .main-page__text {
+        display: grid;
+    }
+
+    .main-page__title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .main-page__subtitle {
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .main-page__link {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .main-page__link__2 {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* second block */
+
+
+    .main-page__second__block{
+        background-color: #1E1E1E;
+        max-height: 80px;
+        margin-bottom: 12px;
+    }
+}
+

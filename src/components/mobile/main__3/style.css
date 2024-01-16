@@ -1,0 +1,39 @@
+@import "./../../../styles/main.css";
+
+
+
+@media (max-width: 428px) {
+    .page__3__item__body {
+        display: flex;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+
+    .item__2__body__title {
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .item__2__body__text {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .item__2__body__image {
+        margin-right: 6px;
+    }
+
+    .main-page__3__row>div:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    .main-page__3 {
+        height: 76vh;
+        flex: 1 1 auto;
+    }
+}

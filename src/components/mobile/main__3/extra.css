@@ -1,0 +1,31 @@
+@import "./../../../styles/main.css";
+
+
+
+@media (max-width: 428px) {
+    .footer {
+        max-height: 72px;
+        background-color: #1E1E1E;
+    }
+
+    .footer__row {
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .row__input {
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: transparent;
+    }
+
+    .row__image {
+        background: transparent;
+    }
+    
+}

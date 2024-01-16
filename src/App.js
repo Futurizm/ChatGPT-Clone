@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MainDesktop from "./components/desktop/MainDesktop";
+import MainPage from "./pages/MainPage";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import ChatGPT from "./pages/ChatGPT";
+import SantaGPT from "./pages/SantaGPT";
 
 function App() {
+  
+  
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="wrapper">
+      <Router>
+        <MainDesktop />
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/chatGPT" element={<ChatGPT />} />
+            <Route path="/santaGPT" element={<SantaGPT />} />
+          </Routes>
+      </Router>
+      </div>
     </div>
   );
 }

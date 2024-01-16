@@ -1,0 +1,23 @@
+@import "./../../../styles/main.css";
+
+
+
+@media (max-width: 428px) {
+    .header {
+        background-color: #1E1E1E;
+        margin-bottom: 26px;
+    }
+
+    .header__container {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
